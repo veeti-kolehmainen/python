@@ -22,9 +22,10 @@ while i <= 4:
     i += 1
     week_number += 1
 
+# Adds bonus money to the total_pay 
 bonus = input("Did you get any bonus money? If so, how much?: ")
 
-if bonus == "no":
+if bonus == "no" or False:
     total_pay = total_pay
 else:
     total_pay = total_pay + float(bonus)
